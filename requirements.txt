@@ -1,18 +1,19 @@
-streamlit>=1.28,<2.0
+streamlit
 
-torch==2.1.0
-torchvision==0.16.0
+torch
+torchvision
 
-ultralytics==8.0.196
+ultralytics
 
 git+https://github.com/openai/CLIP.git
 
-paddleocr==2.7.0
-opencv-python-headless==4.8.0.76
+paddleocr
 
-Pillow
+opencv-python-headless
+
 numpy
 pandas
+Pillow
 plotly
 reportlab
 ftfy
