@@ -1,0 +1,43 @@
+# ============================================================
+# Traffic Violation Detection System — Dependencies
+# Flipkart Grid 6.0 Hackathon
+# ============================================================
+# Tested on Python 3.10+ | CPU-only deployment
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# ── Core Framework ──────────────────────────────────────────
+streamlit>=1.28.0,<2.0.0
+
+# ── Deep Learning (CPU-only) ───────────────────────────────
+# PyTorch CPU-only build (no CUDA dependency)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Object Detection ──────────────────────────────────────
+ultralytics>=8.0.200
+
+# ── Zero-Shot Classification ──────────────────────────────
+# OpenAI CLIP for violation classification
+git+https://github.com/openai/CLIP.git
+
+# ── OCR ───────────────────────────────────────────────────
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+
+# ── Image Processing ─────────────────────────────────────
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ── Visualization & Analytics ────────────────────────────
+plotly>=5.18.0
+
+# ── Data Handling ────────────────────────────────────────
+pandas>=2.0.0
+
+# ── Utilities ────────────────────────────────────────────
+regex>=2023.0
+ftfy>=6.1.0
+reportlab>=4.0.0

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+*.mp4
+*.jpg
+*.png
+Traffic-Violation_920.jpg
+__pycache__/*
