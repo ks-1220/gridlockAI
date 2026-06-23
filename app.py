@@ -26,7 +26,7 @@ os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
 import cv2
-import cv2
+
 import numpy as np
 import pandas as pd
 import streamlit as st
