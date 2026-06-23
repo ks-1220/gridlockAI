@@ -23,7 +23,7 @@ ultralytics>=8.0.200
 git+https://github.com/openai/CLIP.git
 
 # ── OCR ───────────────────────────────────────────────────
-paddlepaddle>=2.5.0
+#paddlepaddle>=2.5.0
 paddleocr>=2.7.0
 
 # ── Image Processing ─────────────────────────────────────
