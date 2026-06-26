@@ -10,7 +10,7 @@ ultralytics
 torch
 torchvision
 
-opencv-python-headless==4.10.0.84
+opencv-python-headless
 
 paddleocr==2.7.3
 paddlepaddle==2.6.2
