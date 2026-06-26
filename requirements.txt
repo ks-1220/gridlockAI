@@ -1,6 +1,8 @@
 streamlit
 
 numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
 pandas
 Pillow
 plotly
@@ -10,11 +12,8 @@ ultralytics
 torch
 torchvision
 
-opencv-python-headless
-
 paddleocr==2.7.3
 paddlepaddle==2.6.2
-
 imgaug==0.4.0
 
 ftfy
